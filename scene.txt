@@ -1,0 +1,105 @@
+background
+	color= 0.1 0.1 0.1
+end
+
+camera
+	O= 0.56959 -0.07001 5.26898
+	N= 0 0 -1
+	shade_quality= 4
+	drefl_quality= 4
+	image_H= 760
+	image_W= 1280
+	lens_H= 1.8
+	lens_W= 3.0
+end
+
+light area
+	O= 2.68631 0.49762 5.36970
+	Dx= 1 0 0
+	Dy= 0 1 0
+	color= 0.8 0.8 0.8
+end
+
+light point
+    O= -0.49820 1.88228 3.10654    
+    color= 0.8 0.8 0.8
+end
+
+object sphere
+	O= -1.10745 -0.65382 1.81326
+	R= 0.5
+	refr= 1
+	rindex= 1.7
+	color= 0.136 0.800 0.744
+    absor= 1 0 0
+end
+
+object sphere
+	O= 1.08936 0 1.23587
+	R= 1.0
+	refl= 0.8
+    spec= 0.2
+	rindex= 1.7
+    color= 1 0 0
+end
+
+object sphere
+	O= 0.66826 -0.51755 2.53048
+	R= 0.5
+	color= 1 1 1
+    texture= m2.png
+    De= 0 1 0
+    Dc= 0 0 1
+    diff= 0.45
+    spec= 0.25
+    refl= 0.3
+    drefl= 0.25
+end
+
+object sphere
+	O= 0 0 -10001
+	R= 10000
+	color= 1 1 1
+    texture= m3.png
+    De= 0 1 0
+    Dc= 0 0 1
+    diff= 0.45
+    spec= 0.25
+    refl= 0.3
+    drefl= 0.25	
+end
+
+object sphere
+	O= -10003 0 0
+	R= 10000
+	color= 1 1 1
+    texture= m3.png
+    De= 0 1 0
+    Dc= 0 0 1
+    diff= 0.45
+    spec= 0.25
+    refl= 0.3
+    drefl= 0.25	
+end
+
+object sphere
+	O= 0 -10001 0
+	R= 10000
+	color= 1 1 1
+	diff= 0.9
+	refl= 0.2
+	drefl= 0.15
+	texture= m1.png
+    De= 0 1 0
+    Dc= 0 0 1
+end
+
+object bezier
+    color= 1 0 0
+    absor= 1 0 0
+    refl= 0.5
+    drefl= 0.25
+    diff= 0.5
+    rindex= 1.3
+    spec= 0.2
+end
